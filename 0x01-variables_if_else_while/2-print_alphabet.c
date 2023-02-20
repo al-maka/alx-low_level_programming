@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	char str = {'a''.''.''b'};
-	int a;
+	char str[26] = "abcdefghijklmnopqrstuvwxyz";
+	int x;
 
-	for (a = 0; a < 26)
+	for (x = 0; x < 26; x++)
 	{
-	putchar("%c\n"), str;
-	a++
+		putchar(str[x]);
 	}
-	return (0)
+	putchar('\n');
+	return (0);
 }
