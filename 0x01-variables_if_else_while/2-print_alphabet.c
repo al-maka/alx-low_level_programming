@@ -12,8 +12,7 @@ int main(void)
 
 	for (x = 0; x < 26; x++)
 	{
-		putchar(str[x]);
+		putchar(str[x]"\n");
 	}
-	putchar('\n');
 	return (0);
 }
